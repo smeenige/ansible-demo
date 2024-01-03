@@ -1,0 +1,6 @@
+---
+- hosts: all
+  user: shivareddy
+  tasks:
+  - name: Create an empty file with name myfile1.txt
+    shell: touch myfile1.txt
